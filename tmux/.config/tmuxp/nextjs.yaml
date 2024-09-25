@@ -1,0 +1,18 @@
+session_name: nextjs
+start_directory: ~/work/personal/nodejs/nextjs
+windows:
+  - window_name: editor
+    layout: main-horizontal
+    focus: true
+    panes:
+      - focus: true
+    options:
+      main-pane-height: 67%
+  - window_name: terminal
+    layout: main-horizontal
+    focus: false
+    panes:
+      - focus: true
+      - pane
+    options:
+      main-pane-height: 50%

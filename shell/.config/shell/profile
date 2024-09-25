@@ -1,0 +1,21 @@
+#!/bin/sh
+
+typeset -U PATH path
+# unsetopt PROMPT_SP 2>/dev/null
+
+# add all directories in `~/.local/bin` to $PATH
+export PATH="$PATH:$(find -L ~/.local/bin -type d | paste -sd ':' -)"
+
+# -------------------- default programs --------------------
+export BROWSER="google-chrome"
+export EDITOR="nvim"
+export SUDO_EDITOR="nvim"
+export TERMINAL="kitty"
+export READER="zathura"
+export VIDEO="mpv"
+export IMAGE="sxiv"
+export TERM="xterm-256color"
+export COLORTERM="truecolor"
+export OPENER="xdg-open"
+# export PAGER="moar"
+

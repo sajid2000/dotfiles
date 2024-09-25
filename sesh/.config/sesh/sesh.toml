@@ -1,0 +1,51 @@
+[default_session]
+startup_command = "nvim -c ':Telescope find_files'"
+
+[[session]]
+name = "Home 🏡"
+path = "~"
+startup_command = "l"
+
+[[session]]
+name = "Downloads 📥"
+path = "~/downloads"
+startup_command = "ls"
+
+[[session]]
+name = "Projects  "
+path = "~/projects"
+startup_command = "l"
+
+[[session]]
+name = "Dotfiles 󰘓"
+path = "~/dotfiles"
+startup_command = "nvim"
+
+[[session]]
+name = "my binaries"
+path = "~/dotfiles/.local/bin"
+
+[[session]]
+name = "alacritty config"
+path = "~/dotfiles/.config/alacritty"
+startup_command = "nvim alacritty.toml"
+
+[[session]]
+name = "tmux config"
+path = "~/dotfiles/.config/tmux"
+startup_command = "nvim tmux.conf"
+
+[[session]]
+name = "neovim config"
+path = "~/dotfiles/.config/nvim"
+
+[[session]]
+name = "sesh config"
+path = "~/dotfiles/.config/sesh"
+startup_command = "nvim sesh.toml"
+
+[[session]]
+name = "yazi config"
+path = "~/dotfiles/.config/yazi"
+startup_command = "nvim yazi.toml"
+
